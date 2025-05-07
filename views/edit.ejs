@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheet/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="main  w-full min-h-screen p-5 bg-zinc-900">
+        <a class="text-blue-500 inline-block mb-10" href="/">Go Back To Home</a>
+        <form action="/edit" method="post">
+            <input class="block text-white  w-1/4 outline-none mt-5px rounded-md px-5 mt-5 py-5 bg-zinc-800" type="text" placeholder="previous name" name="previou" value="<%= filename %>">
+            <textarea class="block text-white w-1/4 outline-none rounded-md px-5 py-5 mt-5 resize-none bg-zinc-800" placeholder="new name " name="new"></textarea>
+            <input class="mt-5 px-5 py-5 rounded-md bg-yellow-800"type="submit" value="update edit">
+        </form>
+        
+
+       
+            
+
+    </div>
+    
+
+
+
+
+    <script src="/javascript/index.js"></script>
+</body>
+</html>
